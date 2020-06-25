@@ -18,8 +18,3 @@ end
 def using_unshift(array, element)
   array.unshift(element)
 end
-
-def shift_with_args(array)
-  first_two = array.shift(2)
-  p first_two
-end
