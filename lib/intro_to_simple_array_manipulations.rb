@@ -15,8 +15,8 @@ def pop_with_args(array)
   p last_two
 end
 
-def using_unshift(array)
-  array.shift()
+def using_unshift(array, element)
+  array.shift(element)
 end
 
 def shift_with_args(array)
